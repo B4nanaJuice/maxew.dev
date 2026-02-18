@@ -108,6 +108,10 @@ a {
     transition: box-shadow .3s ease, transform .3s ease;
 }
 
+.card-sm {
+    flex: 1 0 150px;
+}
+
 .card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: scale(1.01);
