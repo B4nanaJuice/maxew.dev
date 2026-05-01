@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #0a0a14;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 96px;
+    background: rgba(from #1a1a2e r g b/.3);
+    box-shadow: rgba(from #1a1a2e r g b/.3) 0px 0px 8px;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    background: linear-gradient(90deg, #fff, #aaa);
+    -webkit-background-clip: text;
+    color: transparent;
+}
